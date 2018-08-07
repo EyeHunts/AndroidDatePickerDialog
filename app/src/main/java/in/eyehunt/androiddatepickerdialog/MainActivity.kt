@@ -28,7 +28,6 @@ class MainActivity : AppCompatActivity() {
             // Display Selected date in Toast
             Toast.makeText(this, """$dayOfMonth - ${monthOfYear + 1} - $year""", Toast.LENGTH_LONG).show()
 
-            //lblDate.setText("" + dayOfMonth + " " + MONTHS[monthOfYear] + ", " + year)
         }, year, month, day)
         dpd.show()
     }
